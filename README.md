@@ -1,6 +1,6 @@
 # Welcome to your CDK TypeScript template project
 
-To deploy this web application we will be using AWS CDK to create and deploy the underlying infrastructure. This infrastructure will consist of an EC2 instance, a VPC, CI/CD pipeline, and accompanying resources required for it to operate (Security Groups and IAM permissions).
+Deploy a Python web application to an EC2 instance running Nginx and uWSGI, using a CI/CD Pipeline created with Amazon CDK.
 
 ## Setting up the CDK project
 
