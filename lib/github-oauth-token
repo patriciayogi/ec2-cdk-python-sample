@@ -1,0 +1,3 @@
+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
+
+aws secretsmanager create-secret --name github-oauth-token --description "Github access token for cdk" --secret-string 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 --region us-east-2
