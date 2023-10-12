@@ -25,7 +25,7 @@ Deploy a Python web application to an EC2 instance running Nginx and uWSGI, usin
 
 ### Option 1(Deploying the existing sample-python-web-app  project)
 
-* Get secret from github: https://github.com/patriciayogi/sample-python-web-app 
+* Get secret from github: https://github.com/patriciayogi/python-web-app-sample
   or create a new key(don't forget to update oauthToken in lib/ec2-cdk-stack)
 * aws secretsmanager create-secret --name github-oauth-token --description "Github access token for cdk" --secret-string [GITHUB_ACCESS_TOKEN] --region REGION
 
